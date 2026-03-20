@@ -6,7 +6,7 @@ void test_scope(){
   static int static_var = 0;
   int local_var = 0;
 
-  gloval_var++;
+  global_var++;
   static_var++;
   local_var++;
   printf("global_var: %d\n", global_var);
