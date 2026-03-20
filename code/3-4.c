@@ -3,7 +3,7 @@
 
 int max_of(int count, ...){
   va_list ap;
-  va_start(at, count);
+  va_start(ap, count);
 
   int max = va_arg(ap, int);
 
