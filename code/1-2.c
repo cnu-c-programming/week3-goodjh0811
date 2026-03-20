@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+void print();
+int square(int n);
+
 int main() {
   print();
 
