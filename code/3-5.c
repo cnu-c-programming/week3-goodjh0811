@@ -22,7 +22,7 @@ void my_sum(char type, int count, ...) {
    }
     else if (type == 'D') { 
       int sum = 0;
-        or (int i = 0; i < count; i++) {
+        for (int i = 0; i < count; i++) {
           sum += va_arg(ap, int);
        }
        printf("%d\n", sum);
