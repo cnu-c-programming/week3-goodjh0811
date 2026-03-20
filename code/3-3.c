@@ -3,7 +3,7 @@
 
 int average(int count, ...){
   va_list ap;
-  va_start(at, count);
+  va_start(ap, count);
 
   int sum = 0;
 
