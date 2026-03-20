@@ -5,7 +5,7 @@ int power(int base, int exp){
     return 1; 
 }
 return base * power(base, exp -1);
-
+}
 int main(){
   printf("%d\n", power(2, 3));
   printf("%d\n", power(5, 0));
